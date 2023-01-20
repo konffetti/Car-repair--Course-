@@ -303,7 +303,7 @@ body {
 
 /* block start */
 
-.service {
+.section {
   margin-bottom: 100px;
 }
 
@@ -420,6 +420,7 @@ body {
 
 .about__wrapper {
   display: flex;
+  justify-content: space-between;
 }
 
 .about__block {
@@ -451,4 +452,19 @@ body {
   text-decoration: none;
 }
 
+.about__img {
+  align-self: center;
+}
+
 /* about end */
+
+/* fast start */
+
+.process__title {
+  font-weight: 900;
+  font-size: 148px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+/* fast end */
