@@ -463,8 +463,15 @@ body {
 .process__title {
   font-weight: 900;
   font-size: 148px;
-  line-height: 150%;
   text-transform: uppercase;
 }
+
+.process__subtitle {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
 
 /* fast end */
