@@ -517,12 +517,12 @@ body {
 .form__row {
   display: flex;
   column-gap: 40px;
-  margin-bottom: 35px;
 }
 
 .form__group {
   flex: 1;
   position: relative;
+  margin-bottom: 35px;
 }
 
 .input, .textarea {
@@ -544,13 +544,15 @@ body {
 }
 
 .input:focus + .label, .textarea:focus + .label {
-  transform: translateY(-15px);
+  transform: translateY(-17px);
   font-size: 12px;
+  opacity: 0.5;
 }
 
 .input:not(:placeholder-shown) + .label, .textarea:not(:placeholder-shown) + .label {
-  transform: translateY(-15px);
+  transform: translateY(-17px);
   font-size: 12px;
+  opacity: 0.5;
 }
 
 .textarea {
@@ -574,12 +576,13 @@ body {
 
 .footer__text {
   letter-spacing: 0.15em;
+  text-align: center;
 }
 
 .footer__menu {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 22px;
+  gap: 22px;
   justify-content: center;
 }
 
